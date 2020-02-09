@@ -57,8 +57,14 @@
               <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><span><img src="img/soundcloud.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" id="linkedin-tab" data-toggle="tab" href="#linkedin" role="tab" aria-controls="linkedin" aria-selected="false"><span><img src="img/linkedin.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
+            </li>
+            <!-- Contact -->
+            <li class="nav-item">
               <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><span><img src="img/contact.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
             </li>
+            <!-- Contact end -->
+          
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -104,6 +110,10 @@
               </div>
             </div>
 
+            <div class="tab-pane fade" id="linkedin" role="tabpanel" aria-labelledby="linkedin-tab">
+              <br><br>
+              <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="swapnilkr"><a class="LI-simple-link" href='https://in.linkedin.com/in/swapnilkr?trk=profile-badge'>Swapnil Kumar</a></div>
+          </div>
 
           </div>
          </div> 
@@ -119,19 +129,10 @@
       
     
     <!-- Optional JavaScript -->
-    <script>
-       
-            var today = new Date();
-            var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-            var dateTime = date+' '+time;
-            document.querySelector('.dateTimeDisplay').innerHTML = dateTime;
-            
-        
-    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   </body>
 </html>
