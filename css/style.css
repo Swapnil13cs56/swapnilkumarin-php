@@ -35,5 +35,11 @@
     overflow:hidden;
 
   }
-  
 
+.social{
+    color:white;
+}
+
+.connectBtn{
+    background-color: #192965 !important ;
+}
