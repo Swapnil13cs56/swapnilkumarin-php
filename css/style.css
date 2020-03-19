@@ -43,3 +43,13 @@
 .connectBtn{
     background-color: #192965 !important ;
 }
+
+.coronaCSS{
+    border:1px solid white;
+    border-radius: 10px;
+    padding:5px;
+    color:red;
+    
+}
+
+
