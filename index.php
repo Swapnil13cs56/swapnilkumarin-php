@@ -1,92 +1,13 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Font awesome kit -->
-    <script src="https://kit.fontawesome.com/098aa582ef.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-         
-         $('#content').load("../tablist/linkedin.html");
-      
-      });
-      </script>
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <!-- Font -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>swapnilkumar.in</title>
-  </head>
-  <body>
+<?php include 'views/header.php';?>
     
-    <div class="verticalSpace"></div>
-
-    <!-- Header Portion -->
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="col-md-10">
-                <h3 class="customHeader" style="text-align: left;">swapnilkumar.in</h3>
-            </div>
-<!-- 
-            <div class="col-md-2 align-middle">
-                
-
-            </div> -->
-            
-        </div>
-       
-        <hr class="customHorizontalRule">
-    </div>
-
-     
-  
-    <!-- <div class="verticalSpace"></div> -->
-
-<div class="container-fluid" style="overflow:auto;height:500px;">
-
-  
   
 <!-- Main Content -->
     <div class="container">
-  
-      <!-- Corona Section -->
-  <div class="row">
-  
-  <div class="col-md-12">
-    <marquee><a href="https://timesofindia.indiatimes.com/india/coronavirus-live-updates-total-number-of-coronavirus-cases-in-india-rises-march-19-2020/liveblog/74701641.cms" target="_blank"><h6 class="coronaCSS">Latest Corona Updates</h6></a></marquee>
-    </div> 
-  
-  </div>
 
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><span><img src="img/medium.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><span><img src="img/soundcloud.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="linkedin-tab" data-toggle="tab" href="#linkedin" role="tab" aria-controls="linkedin" aria-selected="false"><span><img src="img/linkedin.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <!-- Contact -->
-            <li class="nav-item">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><span><img src="img/contact.png" height="100%" width="20px"></span>&nbsp;&nbsp;</a>
-            </li>
-            <!-- Contact end -->
-          
-          </ul>
+      <?php include 'views/alert.php';?>
+      <?php include 'views/tabs.php';?>
+
+
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <br><br>
@@ -163,20 +84,4 @@
 
   </div>
   
-    <footer class="footer">
-        <div class="container">
-          <span><a href="https://www.instagram.com/soup_lazy/" target="_blank" class="social"><i class="fab fa-instagram fa-2x"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://medium.com/@swapnilkr" target="_blank" class="social"><i class="fab fa-medium fa-2x"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/swapnil.lazybone" target="_blank" class="social"><i class="fab fa-facebook fa-2x"></i></a></span>
-
-         
-        </div>
-      </footer>
-      
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-  </body>
-</html>
+   <?php include 'views/footer.php'?>
